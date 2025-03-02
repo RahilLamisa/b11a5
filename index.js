@@ -47,6 +47,9 @@ const button = document.getElementById('completed1').addEventListener('click',fu
     
     document.getElementById('c1').innerText= 'You have completed the task' + ' ' + taskName + ' ' + 'at' + ' ' + time;
     document.getElementById('c1').classList.add('bg-blue-50');
+    if(remove === 0){
+        alert('Congratulation!!! You have completed all the current task')
+    }
 })
 
 const button2 = document.getElementById('completed2').addEventListener('click',function(event){
@@ -74,6 +77,9 @@ const button2 = document.getElementById('completed2').addEventListener('click',f
     
     document.getElementById('c2').innerText= 'You have completed the task' + ' ' + taskName + ' ' + 'at' + ' ' + time;
     document.getElementById('c2').classList.add('bg-blue-50');
+    if(remove === 0){
+        alert('Congratulation!!! You have completed all the current task')
+    }
 })
 
 
@@ -102,6 +108,9 @@ const button3 = document.getElementById('completed3').addEventListener('click',f
     
     document.getElementById('c3').innerText= 'You have completed the task' + ' ' + taskName + ' ' + 'at' + ' ' + time;
     document.getElementById('c3').classList.add('bg-blue-50');
+    if(remove === 0){
+        alert('Congratulation!!! You have completed all the current task')
+    }
 })
 
 
@@ -130,6 +139,9 @@ const button4 = document.getElementById('completed4').addEventListener('click',f
     
     document.getElementById('c4').innerText= 'You have completed the task' + ' ' + taskName + ' ' + 'at' + ' ' + time;
     document.getElementById('c4').classList.add('bg-blue-50');
+    if(remove === 0){
+        alert('Congratulation!!! You have completed all the current task')
+    }
 })
 
 
@@ -158,6 +170,9 @@ const button5 = document.getElementById('completed5').addEventListener('click',f
     
     document.getElementById('c5').innerText= 'You have completed the task' + ' ' + taskName + ' ' + 'at' + ' ' + time;
     document.getElementById('c5').classList.add('bg-blue-50');
+    if(remove === 0){
+        alert('Congratulation!!! You have completed all the current task')
+    }
 })
 
 
@@ -186,11 +201,17 @@ const button6 = document.getElementById('completed6').addEventListener('click',f
     
     document.getElementById('c6').innerText= 'You have completed the task' + ' ' + taskName + ' ' + 'at' + ' ' + time;
     document.getElementById('c6').classList.add('bg-blue-50');
+    if(remove === 0){
+        alert('Congratulation!!! You have completed all the current task')
+    }
+
 })
 
 document.getElementById('clear').addEventListener('click', function(){
     document.getElementById('historyAdd').innerText='';
 })
+
+
 
 document.getElementById('discover').addEventListener('click',function(){
     window.location.href='./discover.html'
