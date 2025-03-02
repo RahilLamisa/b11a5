@@ -188,10 +188,10 @@ const button6 = document.getElementById('completed6').addEventListener('click',f
     document.getElementById('c6').classList.add('bg-blue-50');
 })
 
-let childs = document.getElementById('historyAdd').children.length;
-
-
 document.getElementById('clear').addEventListener('click', function(){
     document.getElementById('historyAdd').innerText='';
 })
 
+document.getElementById('discover').addEventListener('click',function(){
+    window.location.href='./discover.html'
+})
